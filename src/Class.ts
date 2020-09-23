@@ -31,24 +31,24 @@
 
 //CLASS INHERITANCE
 
-class Person {
-  constructor(name) {
-    this.name = name;
-    console.log(name + " Parent constructor");
-  }
-  getID(){
-    return 10;
-  }
-}
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//     console.log(name + " Parent constructor");
+//   }
+//   getID() {
+//     return 10;
+//   }
+// }
 
-class Employee extends Person {
-  constructor(name) {
-    super(name);
-    console.log(name + " Employee Constructor");
-  }
-  getID(){
-    return 50;
-  }
-}
-let e = new Employee("Novel");
-console.log(e.getID());
+// class Employee extends Person {
+//   constructor(name) {
+//     super(name);
+//     console.log(name + " Employee Constructor");
+//   }
+//   getID() {
+//     return 50;
+//   }
+// }
+// let e = new Employee("Novel");
+// console.log(e.getID());
